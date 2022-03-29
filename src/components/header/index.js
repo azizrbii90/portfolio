@@ -3,13 +3,13 @@ import './header.css'
 
 import Web from './web/index'
 import Mobile from './mobile/index'
-
+import logo from '../../assets/logo.png'
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
   return (
     <div className="header">
       <div className="logo">
-          RbiiAziz
+          AzizRbii
       </div>
       <div className="menu">
           <div className="web-menu">
