@@ -8,8 +8,8 @@ const About = () => {
     <div className="about">
         <div className="about-top">
             <div className="about-info">
-                Hello There 👋, I am 
-                <br /> <span className="info-name">Aziz Rbii.</span> 
+                Hello There 👋, I am a
+                <br /> <span className="info-name">full stack developer.</span> 
                 <br /> I love experimenting with web.
             </div>
             <div className="about-photo">

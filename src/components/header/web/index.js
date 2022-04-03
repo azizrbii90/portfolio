@@ -5,13 +5,13 @@ const Web = () => {
   return (
     <div className="web">
       <div className="web-option">
-          <a href='#project'>
+          <a href='#projects'>
               <i className="fi-rr-edit option-icon"></i>
               Projects
           </a>
       </div>
       <div className="web-option">
-          <a href='skills'>
+          <a href='#skills'>
               <i className="fi-rr-laptop option-icon"></i>
               Skills
           </a>
@@ -23,7 +23,7 @@ const Web = () => {
           </a>
       </div>
       <div className="web-option">
-          <a href='contact'>
+          <a href='#contact'>
               <i className="fi-rr-user option-icon"></i>
               Contact
           </a>

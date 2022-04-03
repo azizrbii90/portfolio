@@ -11,6 +11,7 @@ const Skills = () => {
       <Separator />
       <label className="section-title">Skills</label>
       <div className="skills-container">
+        <br></br><br></br>
         {data.map((item) => {
           return (
             <div className="skills-section">

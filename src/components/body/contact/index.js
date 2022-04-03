@@ -15,7 +15,7 @@ const Contact = () => {
           <SocialContact />
         </div>
         <div className="download">
-          <a download href={require('../../../assets/lettre de motivation.pdf').default}>
+          <a download>
             <i className="fi-rr-cloud-download download-icon" /> 
             download resume
           </a>

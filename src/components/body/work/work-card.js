@@ -13,8 +13,9 @@ const WorkCard = ({ item }) => {
               {item.description}
           </div>
       </div>
-      <img src={item.companyLogo} className="work-logo" /> 
-
+      <div className="work-logo" > 
+        <img src={item.companyLogo} style={{width: '100%', height: '100%'}} /> 
+      </div>
     </div>
   )
 }

@@ -7,9 +7,10 @@ import logo from '../../assets/logo.png'
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
   return (
+    <div>
     <div className="header">
       <div className="logo">
-          AzizRbii
+          Aziz Rbii ☄️
       </div>
       <div className="menu">
           <div className="web-menu">
@@ -22,6 +23,7 @@ const Header = () => {
               {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
           </div>
       </div>
+    </div>
     </div>
   )
 }
